@@ -8,7 +8,6 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('statuses');
-  this.route('status', { path: 'status/:status-row' });
 });
 
 export default Router;

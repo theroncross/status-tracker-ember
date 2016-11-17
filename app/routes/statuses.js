@@ -121,7 +121,7 @@ const rows = [
 
 export default Ember.Route.extend({
   model() {
-    const store = this.get('store')
+    const store = this.get('store');
     for(let row of rows) {
         store.createRecord('status-row', row);
     }
