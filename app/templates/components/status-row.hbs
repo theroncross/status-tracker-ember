@@ -1,0 +1,9 @@
+<td>
+  {{status-bar-summary transfer.start_date transfer.end_date transfer.processed transfer.total}}
+  <br/>
+  {{transfer.status}}
+</td>
+<td>{{status-bar-progress transfer.processed transfer.total}}</td>
+<td><a href="mailto:{{transfer.email}}">{{transfer.fullname}}</a></td>
+<td>{{status-bar-time transfer.request_date transfer.remaining}}</td>
+
